@@ -76,10 +76,9 @@ header nav a {
   letter-spacing: 0.1rem;
   line-height: 3.5rem;
   margin-bottom: 0.8rem;
-  /* background: linear-gradient(#ffda08, #a8df12); */
-  background-clip: text;
-  /* color: transparent; */
-  text-shadow: none;
+
+  /* Efek bayangan lebih tegas dan terlihat */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6), 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .slider .list .item .detail figure {

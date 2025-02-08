@@ -7,7 +7,7 @@ const prev = document.querySelector("#prev");
 //auto play.slider
 let runAutoPlay = setTimeout(() => {
   next.click();
-}, 5000);
+}, 8000);
 
 // auto play musik
 window.addEventListener("DOMContentLoaded", function () {
@@ -54,5 +54,5 @@ const initSlider = (type) => {
   clearTimeout(runAutoPlay);
   runAutoPlay = setTimeout(() => {
     next.click();
-  }, 5000);
+  }, 8000);
 };
