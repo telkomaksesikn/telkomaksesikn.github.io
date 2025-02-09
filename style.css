@@ -27,6 +27,12 @@ header nav a {
   text-transform: uppercase;
   color: white;
   letter-spacing: 0.1rem;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6), 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+header nav a:hover {
+  color: #fff;
+  background-color: #e69c14;
 }
 
 /* slider */
