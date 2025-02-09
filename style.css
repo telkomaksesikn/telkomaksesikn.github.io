@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  width: 1000px;
+  width: 100%;
   max-width: 80%;
   margin: auto;
   height: 50px;
@@ -97,6 +97,8 @@ header nav a {
   font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
+  /* Efek bayangan lebih tegas dan terlihat */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6), 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .slider .list .item .detail .desc {
   margin-top: 1rem;
@@ -364,6 +366,9 @@ mobile */
     line-height: 2.8rem;
   }
   .slider .list .item .detail .desc {
+    font-size: 0.8rem;
+  }
+  header nav a {
     font-size: 0.8rem;
   }
 }
